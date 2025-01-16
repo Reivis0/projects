@@ -8,6 +8,8 @@
 #include<algorithm>
 #include<numeric>
 
+bool isCorrect(const std::string &str);
+
 class Strings
 {
 public:

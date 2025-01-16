@@ -3,19 +3,10 @@
 int main()
 {
 	try {mainWork();}
-	catch (const std::exception& ex)
+	catch(std::exception &ex)
 	{
-		std::cerr << ex.what() << std::endl;
+		std::cout<<ex.what()<<std::endl;
 		return EXIT_FAILURE;
 	}
-	
 	return EXIT_SUCCESS;
 }
-
-
-
-
-
-
-
-
